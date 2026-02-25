@@ -1,12 +1,6 @@
 import java.util.Scanner;
 class PalindromeCheckerApp {
     public static void main (String[] args){
-        //UC1
-        System.out.println("WELCOME TO PALINDROME CHECKER management system");
-        System.out.println("Version: 1.0");
-        System.out.println("System initialized successfully.");
-
-        //UC2
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a string to check: ");
         String word = scanner.nextLine();
