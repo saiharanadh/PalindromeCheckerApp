@@ -50,8 +50,6 @@ class PalindromeCheckerApp {
         for (int i = word.length() - 1; i >= 0; i--) {
             reversed = reversed + word.charAt(i);
         }
-
-        // Compare original and reversed strings
         if (word.equals(reversed)) {
             System.out.println("Is a Palindrome.");
         } else {
