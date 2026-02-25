@@ -10,14 +10,13 @@ class PalindromeCheckerApp {
             Scanner scanner = new Scanner(System.in);
             System.out.print("Enter a string to check: ");
             String word = scanner.nextLine();
-            String reversed = "";
-            for (int i = word.length() - 1; i >= 0; i--) {
-                reversed = reversed + word.charAt(i);
+
+            for (int i = 0; i < word.length() / 2; i++) {
+
+            if (word.charAt(i) != word.charAt(word.length() - 1 - j)) {
+                System.out.println("IS palindrome");
+                break;
             }
-            if (word.equalsIgnoreCase(reversed)) {
-                System.out.println("The word \"" + word + "\" is a Palindrome.");
-            } else {
-                System.out.println("The word \"" + word + "\" is NOT a Palindrome.");
             }
             scanner.close();
 
