@@ -35,8 +35,8 @@ class PalindromeCheckerApp {
             System.out.println("Is a Palindrome.");
         } else {
             System.out.println("NOT a Palindrome.");
+
         }
-        scanner.close();
 
     }
 }
